@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D6D14EC1A3E059B00B33FCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D6D14EA1A3E059B00B33FCF /* Main.storyboard */; };
+		0D6D14F21A3E0C3E00B33FCF /* VisualizaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6D14F11A3E0C3E00B33FCF /* VisualizaViewController.swift */; };
+		0D6D14F41A3E0FD900B33FCF /* AniadirViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6D14F31A3E0FD900B33FCF /* AniadirViewController.swift */; };
 		0D7FA65A1A3E03B8003EB1BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7FA6591A3E03B8003EB1BF /* AppDelegate.swift */; };
-		0D7FA65C1A3E03B8003EB1BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7FA65B1A3E03B8003EB1BF /* ViewController.swift */; };
-		0D7FA65F1A3E03B8003EB1BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D7FA65D1A3E03B8003EB1BF /* Main.storyboard */; };
 		0D7FA6611A3E03B8003EB1BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D7FA6601A3E03B8003EB1BF /* Images.xcassets */; };
 		0D7FA6641A3E03B9003EB1BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D7FA6621A3E03B9003EB1BF /* LaunchScreen.xib */; };
 		0D7FA6701A3E03B9003EB1BF /* AgendaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7FA66F1A3E03B9003EB1BF /* AgendaTests.swift */; };
+		0D7FA67A1A3E0417003EB1BF /* ListadoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7FA6791A3E0417003EB1BF /* ListadoTableViewController.swift */; };
+		0D7FA67C1A3E0446003EB1BF /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7FA67B1A3E0446003EB1BF /* Contacto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +29,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D6D14EB1A3E059B00B33FCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ../../Agenda2/Agenda2/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D6D14F11A3E0C3E00B33FCF /* VisualizaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualizaViewController.swift; sourceTree = "<group>"; };
+		0D6D14F31A3E0FD900B33FCF /* AniadirViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AniadirViewController.swift; sourceTree = "<group>"; };
 		0D7FA6541A3E03B8003EB1BF /* Agenda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Agenda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D7FA6581A3E03B8003EB1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D7FA6591A3E03B8003EB1BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0D7FA65B1A3E03B8003EB1BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0D7FA65E1A3E03B8003EB1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D7FA6601A3E03B8003EB1BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0D7FA6631A3E03B9003EB1BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0D7FA6691A3E03B9003EB1BF /* AgendaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AgendaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D7FA66E1A3E03B9003EB1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D7FA66F1A3E03B9003EB1BF /* AgendaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaTests.swift; sourceTree = "<group>"; };
+		0D7FA6791A3E0417003EB1BF /* ListadoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListadoTableViewController.swift; path = ../ListadoTableViewController.swift; sourceTree = "<group>"; };
+		0D7FA67B1A3E0446003EB1BF /* Contacto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Contacto.swift; path = ../Contacto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +83,12 @@
 		0D7FA6561A3E03B8003EB1BF /* Agenda */ = {
 			isa = PBXGroup;
 			children = (
+				0D7FA67B1A3E0446003EB1BF /* Contacto.swift */,
+				0D6D14F11A3E0C3E00B33FCF /* VisualizaViewController.swift */,
+				0D7FA6791A3E0417003EB1BF /* ListadoTableViewController.swift */,
+				0D6D14F31A3E0FD900B33FCF /* AniadirViewController.swift */,
 				0D7FA6591A3E03B8003EB1BF /* AppDelegate.swift */,
-				0D7FA65B1A3E03B8003EB1BF /* ViewController.swift */,
-				0D7FA65D1A3E03B8003EB1BF /* Main.storyboard */,
+				0D6D14EA1A3E059B00B33FCF /* Main.storyboard */,
 				0D7FA6601A3E03B8003EB1BF /* Images.xcassets */,
 				0D7FA6621A3E03B9003EB1BF /* LaunchScreen.xib */,
 				0D7FA6571A3E03B8003EB1BF /* Supporting Files */,
@@ -192,7 +201,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D7FA65F1A3E03B8003EB1BF /* Main.storyboard in Resources */,
+				0D6D14EC1A3E059B00B33FCF /* Main.storyboard in Resources */,
 				0D7FA6641A3E03B9003EB1BF /* LaunchScreen.xib in Resources */,
 				0D7FA6611A3E03B8003EB1BF /* Images.xcassets in Resources */,
 			);
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D7FA65C1A3E03B8003EB1BF /* ViewController.swift in Sources */,
+				0D7FA67A1A3E0417003EB1BF /* ListadoTableViewController.swift in Sources */,
 				0D7FA65A1A3E03B8003EB1BF /* AppDelegate.swift in Sources */,
+				0D6D14F41A3E0FD900B33FCF /* AniadirViewController.swift in Sources */,
+				0D7FA67C1A3E0446003EB1BF /* Contacto.swift in Sources */,
+				0D6D14F21A3E0C3E00B33FCF /* VisualizaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,10 +248,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0D7FA65D1A3E03B8003EB1BF /* Main.storyboard */ = {
+		0D6D14EA1A3E059B00B33FCF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0D7FA65E1A3E03B8003EB1BF /* Base */,
+				0D6D14EB1A3E059B00B33FCF /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -336,6 +348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Agenda/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +359,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Agenda/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -405,6 +419,7 @@
 				0D7FA6751A3E03B9003EB1BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D7FA6761A3E03B9003EB1BF /* Build configuration list for PBXNativeTarget "AgendaTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +428,7 @@
 				0D7FA6781A3E03B9003EB1BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
